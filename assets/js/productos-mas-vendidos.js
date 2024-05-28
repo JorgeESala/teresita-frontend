@@ -27,9 +27,9 @@ function actualizarListado() {
                    
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-3">
             <div class="card text-center h-100">
-            <a href= "./src/assets/pages/productos.html"><img src="${item.img}" class=" card-img-top" alt="${item.description}" /> </a>
+            <a href= "../assets/pages/productos.html"><img src="${item.img}" class=" card-img-top" alt="${item.description}" /> </a>
           <div class="card-body">
-            <a href= "./src/assets/pages/productos.html"> <h4 class="card-title">${item.name}</h5></a>
+            <a href= "../assets/pages/productos.html"> <h4 class="card-title">${item.name}</h5></a>
             <h5 class="card-text">$${item.price}</h4>
           </div>
             </div>
@@ -109,7 +109,7 @@ function crearDatos(){
     itemList.push( {
         name: "Gorra Luffy",
         description: "Gorro para adulto",
-        img: "./src/assets/img/Gorro Luffy.jpg",
+        img: "../assets/img/Gorro Luffy.jpg",
         price: "100",
         quantity: 3,
         category: "One piece"
@@ -118,7 +118,7 @@ function crearDatos(){
     itemList.push( {
         name: "Gorra Chopper",
         description: "Gorro infantil del personaje Chopper",
-        img: "./src/assets/img/Gorro Chopper.jpg",
+        img: "../assets/img/Gorro Chopper.jpg",
         price: "140",
         quantity: 3,
         category: "One piece"
@@ -127,7 +127,7 @@ function crearDatos(){
     itemList.push( {
         name: "Gorra Ace",
         description: "Gorro para adulto del personaje Ace",
-        img: "./src/assets/img/Gorro Ace.jpg",
+        img: "../assets/img/Gorro Ace.jpg",
         price: "140",
         quantity: 3,
         category: "One piece"
@@ -136,7 +136,7 @@ function crearDatos(){
     itemList.push( {
         name: "Juguete Iron Man",
         description: "Juguete lanza discos de iron man",
-        img: "./src/assets/img/Juguete iron man.jpg",
+        img: "../assets/img/Juguete iron man.jpg",
         price: "70",
         quantity: 1,
         category: "Marvel"
@@ -145,7 +145,7 @@ function crearDatos(){
     itemList.push( {
         name: "Monedero de naruto",
         description: "Monedero que usa naruto en el ánime",
-        img: "./src/assets/img/Monedero naruto.jpg",
+        img: "../assets/img/Monedero naruto.jpg",
         price: "100",
         quantity: 3,
         category: "Naruto"
@@ -154,7 +154,7 @@ function crearDatos(){
     itemList.push( {
         name: "Figura pikachu gengar",
         description: "Figura de pikachu disfrazado de gengar con caja",
-        img: "./src/assets/img/Pikachu gengar.jpg",
+        img: "../assets/img/Pikachu gengar.jpg",
         price: "270",
         quantity: 1,
         category: "Pokemon"
@@ -163,7 +163,7 @@ function crearDatos(){
     itemList.push( {
         name: "Playera zoro",
         description: "Playera neón talla Grande",
-        img: "./src/assets/img/Playera zoro.jpg",
+        img: "../assets/img/Playera zoro.jpg",
         price: "200",
         quantity: 1,
         category: "One piece"
@@ -172,7 +172,7 @@ function crearDatos(){
     itemList.push( {
         name: "Playera pokemon",
         description: "Playera neón talla chica",
-        img: "./src/assets/img/Playera pokemon.jpg",
+        img: "../assets/img/Playera pokemon.jpg",
         price: "200",
         quantity: 1,
         category: "Pokemon"
@@ -181,7 +181,7 @@ function crearDatos(){
     itemList.push( {
         name: "Rosa amarilla armable",
         description: "Rosa armable tipo lego",
-        img: "./src/assets/img/Rosa amarilla armable.jpg",
+        img: "../assets/img/Rosa amarilla armable.jpg",
         price: "120",
         quantity: 3,
         category: "Armable lego block"
@@ -190,7 +190,7 @@ function crearDatos(){
     itemList.push( {
         name: "Cartera kuromi",
         description: "Cartera de 30 x 15 cm",
-        img: "./src/assets/img/Cartera kuromi.jpg",
+        img: "../assets/img/Cartera kuromi.jpg",
         price: "100",
         quantity: 1,
         category: "Kuromi San Rio"
