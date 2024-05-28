@@ -1,0 +1,176 @@
+:root {
+  --color-rosa-fondo: #ffcbc6;
+  --color-morado-bajo: #b6affc;
+  --color-enlaces: #65f1ff;
+  --color-rosa-fuerte: #fd2f8f;
+  --main-text-font: "Fredoka", sans-serif;
+  --secondary-text-font: "Jost", sans-serif;
+  --title-size: 45px;
+  --subtitle-size: 30px;
+  --paragraph-size: 17px;
+  --button-size: 18px;
+  --footer-size: 14px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-rosa-fuerte);
+}
+/* El fondo que use usa en los textos  */
+.text-element {
+  background-color: var(--color-rosa-fondo);
+}
+.text-element:focus {
+  background-color: var(--color-rosa-fondo);
+}
+
+textarea {
+  resize: none;
+}
+.button {
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: #a66cff;
+  color: white;
+  font-size: var(--button-size);
+  font-family: var(--secondary-text-font);
+  font-optical-sizing: auto;
+}
+.button:hover {
+  background-color: var(--color-rosa-fuerte);
+}
+.submit {
+  padding-left: 12px;
+}
+
+/* breakpoint medium */
+@media (min-width: 768px) {
+  .product-form {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1140px) {
+  .product-form {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1320px) {
+  .product-form {
+    max-width: 35%;
+  }
+}
+
+#category-list {
+  background-color: var(--color-rosa-fondo);
+  color: black;
+  width: 65%;
+  font-size: 20px;
+}
+#category-list h2{
+  font-size: 2vw;
+}
+.round-border {
+  border: solid 1px black;
+  border-radius: 30px;
+}
+/* .carousel {
+  width: 80%;
+} */
+.separador-inicio {
+  background-color: var(--color-rosa-fondo);
+}
+.right-section {
+  margin-right: 20%;
+}
+
+.title {
+  font-size: var(--title-size);
+  font-family: var(--main-text-font);
+  font-optical-sizing: auto;
+}
+.subtitle {
+  font-size: var(--subtitle-size);
+  font-family: var(--main-text-font);
+  font-optical-sizing: auto;
+}
+.paragraph {
+  font-size: var(--paragraph-size);
+  font-family: var(--secondary-text-font);
+  font-optical-sizing: auto;
+}
+.footer-size{
+  font-size: var(--footer-size);
+  font-family: var(--secondary-text-font);
+  font-optical-sizing: auto;
+}
+
+#icono-teresita {
+  max-height: 150px;
+}
+footer {
+  background-color: var(--color-morado-bajo);
+}
+
+
+#name-registro,
+#tel-registro,
+#email-registro,
+#pass-registro,
+#repetir-pass-registro {
+  background-color: #fde9e7;
+}
+
+.btn-custom {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#product-container {
+  width: 70% !important;
+}
+
+#show-product {
+  top: 0;
+}
+
+@media (max-width: 1200px) {
+  #side-bar{
+    width: 40vw !important;
+  }
+  #category-list h2{
+    font-size: 3vw;
+  }
+  /* .carousel{
+    width: 90%;
+  } */
+  .right-section{
+    margin-right: 10%;
+  }
+}
+@media (max-width: 991px) {
+  .right-section {
+    margin: 0 10px;
+  }
+  #side-bar {
+    display: none;
+  }
+  #index-section {
+    width: 100% !important;
+  }
+}
+
+.justificado {
+  text-align: justify;
+}
